@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (5.0.2)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - StyleFramework (0.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - StyleFramework (from `../StyleFramework`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  StyleFramework:
+    :path: "../StyleFramework"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  StyleFramework: 04abf3755ae501897d2df164536a02a072f46eae
+
+PODFILE CHECKSUM: b9c8794d694390bdce9ea42b50261b4a5a0aa58a
+
+COCOAPODS: 1.9.1
